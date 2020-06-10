@@ -1,0 +1,45 @@
+@media  only  screen  and (min-width:992px){
+    .formContainer{
+      height: 100vh;
+      /* added position relative for the select */
+      position: relative;
+    }
+    .projectsTittle {
+      text-align: center; 
+      color:#34313b; 
+      font-weight: bold;
+    }
+  .rowOne {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .thumbnailWidth {
+    width: 22%;
+  }
+  .container{
+    display: none;
+  }
+  .logo {
+    width: 34%;
+    margin-left: 30%;
+    margin-top: 8%;
+  }}
+
+  @media only screen and (max-width:1025px){
+    .nav-btn {
+      padding: 0;
+    }
+    .btn {
+      padding: 9px 6px;
+  }
+  .logo {
+    width: 74%;
+    margin-left: -14%;
+    margin-top: 8%;
+}
+.cardCourse {
+  padding: 4px 0px;
+}
+}

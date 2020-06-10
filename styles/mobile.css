@@ -1,0 +1,168 @@
+@media only screen and (max-width:767px){
+    .formContainer {
+      height: 830px;
+    }
+    /* .h1Background {
+      font-size: 50px;
+      /* margin-top: 77px; */
+    /* }  */
+    .titleMobile{
+      margin-top: 60px;
+    }
+    .formMobile{
+      margin-top: 20px;
+    }
+    .inputMobile{
+    padding: 25px;
+    }
+    .mobileBorder {
+      border-top: 1px solid grey;
+    }
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .toggle-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40px;
+      align-items: flex-end;
+    }
+    .toggle-nav:hover {
+      cursor: pointer;
+    }
+    .toggle-nav div {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background-color: #555555;
+      margin: 3px;
+    }
+    .toggle-nav div:nth-child(2) {
+      width: 75%;
+    }
+    .toggle-nav div:nth-child(3) {
+      width: 50%;
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      height: 100%;
+      background-color: #302e38;
+      display: flex;
+      flex-direction: column;
+      width: 0;
+      overflow-x: hidden;
+      transition: width 0.35s ease-in-out;
+    }
+    .sidebar a {
+      color: white;
+      padding: 20px;
+      font-size: 1.3em;
+      text-decoration: none;
+      transition: 0.5s;
+      white-space: nowrap;
+    }
+    .sidebar a:hover {
+      color: white;
+    }
+    .sidebar a i {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .logo{
+    width: 20%;
+    margin-left: -15%;
+    margin-top: 0%;
+   }
+   .navbar-default{
+    height: 90px;
+   }
+   .navigation{
+     margin-bottom: 2%;
+     margin-left: 6%;
+   }
+   .h3Cards {
+  width: 80%;
+  font-size: 20px;
+   }
+   .pCards{
+     width: 83%;
+     font-size: 15px;
+   }
+   .btnCards {
+     margin-top: 1%;
+   }
+   .background1 {
+     height: 50vh;
+   }
+   .h1Background {
+       margin-top: 60px;
+       font-size: 50px;
+   }
+   .projects-nav li{
+     padding-top: 10px;
+     padding-bottom: 10px;
+   } 
+   .projects-nav li i {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 28px;
+    display: none;
+  }
+  .projectsTittle{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .nav-btn {
+    margin-top: 0px;
+  }
+  .selectField{
+    border-radius: 2%;
+    z-index: 99;
+  } 
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 6px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: black transparent transparent transparent;
+}}
+  @media only screen and (min-width: 320px ) and (max-width:425px) {
+    .logo {
+      width: 26%;
+      margin-left: -21%;
+      margin-top: 1%;
+  }
+  .navigation {
+    margin-bottom: 2%;
+    margin-left: 13%;
+  }
+  .h1Background {
+    text-align: center;
+    font-size:42px;
+    margin-top: 66px;
+  }
+  .projects-nav {
+    font-size: 13px;
+  }
+  .sidebar a {
+    font-size: 16px;
+  }
+  .nav-btn {
+    font-size: 13px;
+  }
+  .select-selected {
+    width: 261px;
+  }
+}

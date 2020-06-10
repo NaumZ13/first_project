@@ -1,0 +1,122 @@
+@media only screen  and (max-width: 992px) and (min-width: 768px){
+    .container{
+      width: 100%;
+    }
+    .formTablet {
+      margin-top: 60px;
+    }
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .toggle-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40px;
+      align-items: flex-end;
+    }
+    .toggle-nav:hover {
+      cursor: pointer;
+    }
+    .toggle-nav div {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background-color: #555555;
+      margin: 3px;
+    }
+    .toggle-nav div:nth-child(2) {
+      width: 75%;
+    }
+    .toggle-nav div:nth-child(3) {
+      width: 50%;
+    }
+    .projects-nav li:last-of-type {
+      border-right: none;
+      border-bottom: 1px solid grey;
+    }
+    .projects-nav li.active {
+   
+      border-bottom: none;
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      height: 100%;
+      background-color: #302e38;
+      display: flex;
+      flex-direction: column;
+      width: 0;
+      overflow-x: hidden;
+      transition: width 0.35s ease-in-out;
+    }
+    .sidebar a {
+      color: white;
+      padding: 20px;
+      font-size: 1.3em;
+      text-decoration: none;
+      transition: 0.5s;
+      white-space: nowrap;
+    }
+    .sidebar a:hover {
+      color: white;
+    }
+    .sidebar a i {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .logo{
+    width: 15%;
+    margin-left: -7%;
+   }
+   .navbar-default{
+    height: 90px;
+   }
+   .navigation{
+     margin-bottom: 2%;
+     margin-left: 3%;
+   }
+   /* .h1Background {
+    /* margin-top: 50px; */
+  /* }  */
+  .projectsTittle{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .nav-btn {
+    margin-top: 0px;
+  }
+  .sidebar a {
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: 0.5s;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    background-color: #302e38;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    overflow-x: hidden;
+    transition: width 0.35s ease-in-out;
+  }
+  .formContainer {
+    margin-bottom: 20%;
+  }
+
+  }
